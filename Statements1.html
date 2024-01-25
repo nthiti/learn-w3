@@ -1,0 +1,42 @@
+<!-- คำสั่ง(Statements) โดยสามาแยกออกเป็นคำสั่งย่อยๆในการทำงานได้-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="name"></p>
+
+    <script>
+        let x,y,z;  //Declare 3 variables
+        x = 5;      //Assign the value 5 to x
+        y = 5;      //Assign the value 5 to y
+        z = x + y;  //Assign the sum of x and y to z
+        document.getElementById('demo').innerHTML = "The value is "+ z + ".";
+
+        let a,b,c;      //Statements 1 
+        a = "Thiti";    //Statements 2
+        b = "porn";     //Statements 3
+        c = a + b;      //Statements 4
+        document.getElementById('name').innerHTML = "My name is "+ c + ".";
+    </script>
+
+</body>
+</html>
+
+
+<!-- 
+-----[ คำสั่งหลักในการระบุของ JavaScript ]-----
+    var	        ประกาศตัวแปร
+    let	        ประกาศตัวแปรบล็อก
+    const	    ประกาศค่าคงที่บล็อก
+    if	        ทำเครื่องหมายบล็อกคำสั่งที่จะดำเนินการตามเงื่อนไข
+    switch	    ทำเครื่องหมายบล็อกคำสั่งที่จะดำเนินการในกรณีต่างๆ
+    for	        ทำเครื่องหมายบล็อกคำสั่งที่จะดำเนินการแบบวนซ้ำ
+    function    ประกาศฟังก์ชัน
+    return	    ออกจากฟังก์ชัน
+    try	        ดำเนินการจัดการข้อผิดพลาดกับกลุ่มคำสั่ง
+ -->
